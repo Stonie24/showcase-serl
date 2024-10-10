@@ -1,0 +1,104 @@
+[
+    {
+      "id": "1",
+      "title": "Home Assistant",
+      "description": "Open source home automation that puts local control and privacy first.",
+      "descriptionLong": "Home Assistant is a home automation platform that brings all your smart devices together, regardless of brand, and lets you control them from one interface. It’s fast, secure, and runs locally, meaning your data stays in your home. You can create automations to make your devices work together, like turning off lights when you leave or adjusting the thermostat when a window opens. Plus, it's open-source, so the community keeps adding new features and device support over time. Essentially, it gives you full control over your smart home without relying on the cloud.",
+      "type": "PHD",
+      "tags": ["Python", "Assistant", "Open Source", "Home", "Tool"],
+      "screenshots": [
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.home-assistant.io%2Fimages%2Fblue%2Fblue_hero.jpg&f=1&nofb=1&ipt=17c8c31ec0ceb45f7bf3ddc5d32f94080633ff845e4b1372595bd9cb0dc0c8fc&ipo=images"
+      ],
+      "urlToHomepage": "https://www.home-assistant.io/",
+      "project": {
+        "repository": "https://github.com/home-assistant/core",
+        "owner": "balloob",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "id": "2",
+      "title": "The Algorithms",
+      "description": "All Algorithms implemented in Python.",
+      "type": "research project",
+      "tags": ["Python", "Tool"],
+      "screenshots": [
+        "https://raw.githubusercontent.com/TheAlgorithms/website/1cd824df116b27029f17c2d1b42d81731f28a920/public/logo.svg"
+      ],
+      "urlToHomepage": "https://github.com/TheAlgorithms/Python",
+      "project": {  
+        "repository": "https://github.com/TheAlgorithms/Python",
+        "owner": "Mark Globe",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Rejoinderoo",
+      "description": "Rejoinderoo creates a rejoinder (response to reviewers) LaTeX document based on a CSV file.",
+      "type": "Student",
+      "tags": ["Tool", "Writing", "Python"],
+      "screenshots": [
+        "https://raw.githubusercontent.com/andreas-bauer/rejoinderoo/main/images/logo.png"
+      ],
+      "urlToHomepage": "https://github.com/andreas-bauer/rejoinderoo",
+      "project": {
+        "repository": "https://github.com/andreas-bauer/rejoinderoo",
+        "owner": "Andreas Bauer",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Pokedex",
+      "description": "A mobile app that shows all the pokemons inside a Pokedex. All the information you whould ever need is in your hands.",
+      "type": "PHD",
+      "tags": ["Tool", "Pokemon", "Dart"],
+      "screenshots": [
+        "/image/pokedex.png"
+      ],
+      "urlToHomepage": "https://github.com/bth-dipt-teaching/pokedex",
+      "project": {
+        "repository": "https://github.com/bth-dipt-teaching/pokedex",
+        "owner": "Andreas Bauer",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Credit Maker",
+      "description": "CRedit Maker helps you to create CRediT (Contributor Roles Taxonomy) statements for your research papers.",
+      "type": "research project",
+      "tags": ["Tool", "Webaplication", "Typescript"],
+      "screenshots": [
+        "https://raw.githubusercontent.com/andreas-bauer/credit-maker/refs/heads/main/src/images/robot-logo128.png"
+      ],
+      "urlToHomepage": "https://github.com/andreas-bauer/credit-maker",
+      "project": {
+        "repository": "https://github.com/andreas-bauer/credit-maker",
+        "owner": "Andreas Bauer",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Follow",
+      "description": " Next generation information browser.",
+      "type": "research project",
+      "tags": ["Typescript", "Automation", "Tool"],
+      "screenshots": [
+        "https://private-user-images.githubusercontent.com/41265413/344728860-c6c02ad5-cddc-46f5-8420-a47afe1c82fe.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyMTk0MDIsIm5iZiI6MTcyODIxOTEwMiwicGF0aCI6Ii80MTI2NTQxMy8zNDQ3Mjg4NjAtYzZjMDJhZDUtY2RkYy00NmY1LTg0MjAtYTQ3YWZlMWM4MmZlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA2VDEyNTE0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZiMzhlZTI3MDQ0OGFhMjlmOTdkN2U1Yjk0MjY3MjBmYmJhYTY0YWM5NzU0ZGQ2NTRiNGJjYjUzZTlmZjJlNDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Vr-IN0vg915l-2oRK6O6VR3E1yyXVa1F69gYKeZ47d8"
+      ],
+      "urlToHomepage": "https://github.com/RSSNext/Follow",
+      "project": {
+        "repository": "https://github.com/RSSNext/Follow",
+        "owner": "Innei",
+        "license": "GNU"
+      }
+    }
+  ]
+  
+
+
+
+

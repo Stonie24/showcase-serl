@@ -8,10 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        slide: {
+          '0%': { transform: 'translateX(-60px)' },
+          '100%': { transform: 'translateX(200px)' },
+        },
+      },
+      animation: {
+        slide: 'slide 2s ease-in-out infinite alternate',
+      },
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
+      
     },
   },
   plugins: [],
