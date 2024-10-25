@@ -20,6 +20,7 @@
       "id": "2",
       "title": "The Algorithms",
       "description": "All Algorithms implemented in Python.",
+      "descriptionLong": "TheAlgorithms/Python is an open-source project where we’ve gathered a vast collection of algorithms implemented in Python. It’s like a library of essential coding techniques and problem-solving strategies, including everything from basic sorting and searching algorithms to more advanced ones like machine learning algorithms. Our goal is to help people learn how algorithms work by providing simple, clean code examples. You can find algorithms for different areas like math, data structures, graphs, cryptography, and more.",
       "type": "research project",
       "tags": ["Python", "Tool"],
       "screenshots": [
@@ -35,6 +36,7 @@
     {
       "id": "3",
       "title": "Rejoinderoo",
+      "descriptionLong": "The project Rejoinderoo by Andreas Bauer is a tool designed to simplify integrating Rejoiner email marketing campaigns with eCommerce systems. It aims to help developers quickly set up and manage email triggers based on customer behavior, such as abandoned cart emails or post-purchase follow-ups. The system provides a flexible API and is built to streamline customer engagement through automated, personalized emails that boost conversions.  ",
       "description": "Rejoinderoo creates a rejoinder (response to reviewers) LaTeX document based on a CSV file.",
       "type": "Student",
       "tags": ["Tool", "Writing", "Python"],
@@ -52,6 +54,7 @@
       "id": "4",
       "title": "Pokedex",
       "description": "A mobile app that shows all the pokemons inside a Pokedex. All the information you whould ever need is in your hands.",
+      "descriptionLong": "This project is a simple Pokémon Pokedex web app built using React. It lets users browse a list of Pokémon, view details about each one, and search or filter them by different attributes. We use data from the Pokémon API to fetch real-time information. The app is designed to help students learn web development, especially working with React, APIs, and responsive design. It’s structured to be easy to understand and extend for educational purposes.",
       "type": "PHD",
       "tags": ["Tool", "Pokemon", "Dart"],
       "screenshots": [
@@ -68,6 +71,7 @@
       "id": "5",
       "title": "Credit Maker",
       "description": "CRedit Maker helps you to create CRediT (Contributor Roles Taxonomy) statements for your research papers.",
+      "descriptionLong": "The Credit Maker is a tool that automatically generates credits (like acknowledgments or references) for different types of projects. It helps you create neatly formatted lists or paragraphs for credits in various formats such as plain text, LaTeX, or other formats used in technical documents.",
       "type": "research project",
       "tags": ["Tool", "Webaplication", "Typescript"],
       "screenshots": [
@@ -84,10 +88,11 @@
       "id": "6",
       "title": "Follow",
       "description": " Next generation information browser.",
+      "descriptionLong": "Follow is a platform that lets you follow websites, blogs, or any content with RSS feeds, and get real-time updates in a clean, easy-to-use interface. It’s like subscribing to your favorite sites, so whenever they post something new, you’ll see it right away without having to visit them individually. Just add the RSS feed, and Follow will do the rest—organizing updates for you to browse whenever you like!",
       "type": "research project",
       "tags": ["Typescript", "Automation", "Tool"],
       "screenshots": [
-        "https://private-user-images.githubusercontent.com/41265413/344728860-c6c02ad5-cddc-46f5-8420-a47afe1c82fe.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyMTk0MDIsIm5iZiI6MTcyODIxOTEwMiwicGF0aCI6Ii80MTI2NTQxMy8zNDQ3Mjg4NjAtYzZjMDJhZDUtY2RkYy00NmY1LTg0MjAtYTQ3YWZlMWM4MmZlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA2VDEyNTE0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZiMzhlZTI3MDQ0OGFhMjlmOTdkN2U1Yjk0MjY3MjBmYmJhYTY0YWM5NzU0ZGQ2NTRiNGJjYjUzZTlmZjJlNDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Vr-IN0vg915l-2oRK6O6VR3E1yyXVa1F69gYKeZ47d8"
+        "https://private-user-images.githubusercontent.com/41265413/344728860-c6c02ad5-cddc-46f5-8420-a47afe1c82fe.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkwNjExMTMsIm5iZiI6MTcyOTA2MDgxMywicGF0aCI6Ii80MTI2NTQxMy8zNDQ3Mjg4NjAtYzZjMDJhZDUtY2RkYy00NmY1LTg0MjAtYTQ3YWZlMWM4MmZlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE2VDA2NDAxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVmODY1MWYzNGZmNDQzMDk3YmY1NzAxMGUzOWJmN2JjODBjYTAwZmVlYzA0OWZiZTY3NGZjNTEwYmQ5MzY1YjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.T2JcA43luG7GPqWPCFoeOdpJiVmf5agFWy47lVsyaio"
       ],
       "urlToHomepage": "https://github.com/RSSNext/Follow",
       "project": {

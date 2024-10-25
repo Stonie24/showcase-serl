@@ -1,9 +1,11 @@
 import fs from 'fs';
 import path from 'path';
+import { redirect } from 'next/navigation';
 import { notFound } from 'next/navigation';
 import { Header } from '@/app/components/Header';
 import BackgroundImage from '@/app/components/BackgroundImage';
-import { useQRCode } from 'next-qrcode';
+import ImageWithFallback from '@/app/components/ImageWithFallback';
+
 
 
 export async function generateStaticParams() {
@@ -11,11 +13,15 @@ export async function generateStaticParams() {
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const projects = JSON.parse(fileContents);
   
+
+  
   // Generate paths for each project ID
   return projects.map((project: any) => ({
     id: project.id.toString(),
   }));
+
 }
+
 
 export default async function Page({ params }: { params: { id: string } }) {
   const { id } = params;
@@ -24,13 +30,18 @@ export default async function Page({ params }: { params: { id: string } }) {
   const filePath = path.join(process.cwd(), 'public', 'projects.json');
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const projects = JSON.parse(fileContents);
-
+  
+  console.log("test")
   const project = projects.find((project: any) => project.id === id);
   console.log(project.urlToHomepage + "um");
   
   if (!project) {
-    notFound();
+    redirect('/'); // Redirect to the homepage if the project is not found
+    return null; // Make sure to return null to prevent further rendering
   }
+
+
+  
 
   return (
     <main className='flex min-h-screen flex-col items-center bg-white'>
@@ -68,12 +79,13 @@ export default async function Page({ params }: { params: { id: string } }) {
       
       <div className='flex gap-10'>      
         <div className='relative w-full max-w-sm mb-2 min-w-[400px] min-h-[400px]'>
-        <img
-            src={project.screenshots}
-            alt={`Screenshot`}
-            style={{ width: '400px', height: '400px' }}
-            className='projectimage'
-          />
+        <ImageWithFallback
+              src={project.screenshots}
+              alt="Screenshot"
+              fallbackSrc="https://media.istockphoto.com/id/1409329028/sv/vektor/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=19M9KEAV28kIUbOn4R4-5TMZTf3XpzveRU3KdbAbbws=" 
+              style={{ width: '400px', height: '400px' }}
+              className="projectimage"
+            />
         </div>
 
         <div className='flex flex-col justify-between w-[600px] h-[400px]'>

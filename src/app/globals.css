@@ -233,3 +233,40 @@ footer {
   min-height: 78vh; 
   padding: 0vh 10vw 10vh 10vw;
 }
+
+.description {
+  max-width: 200px;
+  width: 200px;
+}
+
+.tags {
+  max-width: 200px;
+  width: 200px;
+}
+
+.owner {
+  max-width: 50px;
+  width: 50px;
+}
+
+.kioskmode { 
+  background: #f5f7fa;  
+  z-index: 1;
+  padding-bottom: 4rem;
+  width: 100vw;
+  min-width: 100vw;
+  min-height: 100vh; 
+  padding: 0vh 10vw 10vh 10vw;
+}
+
+.descriptionlong {
+  width: 400px;
+  min-width: 300px;
+  min-height: 400px; 
+}
+
+.qrcode {
+  /* padding-top: 100px; */
+  padding-left: 20px;
+}
+
