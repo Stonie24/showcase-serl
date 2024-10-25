@@ -4,6 +4,9 @@ ShowcaseSERL is a curated collection of student and researcher- developed projec
 
 ## Getting Started
 
+## Requirements
+- nodejs 20+
+
 ### 1. Download the files from GitHub
 ```bash
 git clone https://github.com/Stonie24/showcase-serl.git
